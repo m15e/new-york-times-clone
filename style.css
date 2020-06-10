@@ -103,18 +103,38 @@ header {
     justify-content: center;
 }
 
-.title {
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-header h1 {
-    font-size: 2rem;
+section {
+    width: 800px;
+    margin: 0 auto;
 }
 
 figure {
     max-width: 945px;
 }
+
+
+header h1 {
+    font-size: 2rem;
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.author, .meta-info {
+    width: 100%;
+}
+
+.author {
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 .header-img img {
     width: 100%;
@@ -134,6 +154,22 @@ header figcaption .credit {
     font-size: 0.8rem;
 }
 
+/* meta-information and links before article */
+
+.author p, .author a {
+    color: #333;
+}
+
+.meta-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img {
+    width: 25px;
+}
+
+/* bottom grid */
 
 .main-grid {
     display: grid;
