@@ -104,7 +104,6 @@ header {
 }
 
 .title {
-    width: 40%;
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -133,4 +132,21 @@ header figcaption p {
 header figcaption .credit {
     color: #888;
     font-size: 0.8rem;
+}
+
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    padding: 20px;
+}
+
+.recommended-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 15px;
+}
+
+.item img {
+    width: 100%;
 }
