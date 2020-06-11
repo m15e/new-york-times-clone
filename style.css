@@ -210,7 +210,7 @@ header figcaption .credit {
 
 .article-link,
 .unlock-account a {
-  color: rgb(50, 104, 145); 
+  color: rgb(50, 104, 145);
 }
 
 .article-link {
@@ -225,11 +225,12 @@ header figcaption .credit {
 }
 
 .unlock-account h5 {
-  color: rgb(51,51,51);
+  color: rgb(51, 51, 51);
   padding-top: 1rem;
 }
 
-.unlock-account h5, .unlock-account a {
+.unlock-account h5,
+.unlock-account a {
   font-family: sans-serif;
   font-weight: bold;
   font-size: 15px;
@@ -246,11 +247,12 @@ header figcaption .credit {
   font-family: sans-serif;
 }
 
-.line-top, .line-bottom {
+.line-top,
+.line-bottom {
   margin: 0 auto;
   height: 1px;
   width: 80px;
-  background-color: rgb(204,204,204);
+  background-color: rgb(204, 204, 204);
 }
 
 .text-content {
