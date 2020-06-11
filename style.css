@@ -98,20 +98,15 @@ nav ul {
 
 header {
   display: flex;
-  width: 100%;
+  max-width: 945px;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-section {
-  width: 800px;
   margin: 0 auto;
 }
 
-figure {
-  max-width: 945px;
+section {
+  margin: 0 auto;
 }
-
 
 header h1 {
   font-size: 2rem;
@@ -189,7 +184,7 @@ header figcaption .credit {
   position: relative;
 }
 
-.text-container section p {
+.text-content  p {
   color: rgb(51,51,51);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.25rem;
@@ -215,7 +210,6 @@ header figcaption .credit {
 .unlock-account {
   display: flex;
   flex-direction: column;
-  width: 30%;
   padding: 1rem auto;
   margin: 2rem auto;
 }
@@ -243,11 +237,16 @@ header figcaption .credit {
   background-color: rgb(204,204,204);
 }
 
+.text-content {
+  width: 600px;
+  margin: 0 auto;
+}
+
 .editors-picks {
   width: 210px;
   position: absolute;
-  right: 2.6%;
-  top: 210%;
+  left: 80%;
+  top: 10%;
 }
 
 .editors-picks h5 {
@@ -283,8 +282,8 @@ header figcaption .credit {
 }
 
 .grid-section {
-  width: 900px;
-  margin-left: -50px;
+  max-width: 945px;
+  margin: 0 auto 20px;
 }
 
 .inflation-theory-grid {
@@ -313,7 +312,7 @@ header figcaption .credit {
   grid-template: repeat(2,1fr) / repeat(4, 1fr)
 }
 
-.grid-section div p {
+.inflation-theory-grid div p {
   font-size: 12px;
   padding-bottom: 50%;
   line-height: 17px;
@@ -327,19 +326,64 @@ header figcaption .credit {
   font-weight: bold;
 }
 
-.grid-credits p {
+.author-p {
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.125rem;
+  font-size: 0.875rem;
+  line-height: 17px;
+  padding-bottom: 20px;
+  margin-top: -30px;
 }
 
-.grid-credits p:before {
+.author-p:before {
   content: '';
-  width: 40px;
+  width: 50px;
   height: 1px;
   border-top: 1px solid #000;
-  padding-bottom: 20px;
+  margin-top: -20px;
   position: absolute;
+}
+
+.video-container {
+  width: 600px;
+  margin: 43px auto;
+}
+
+.video-embed {
+  width: 600px;
+  height: 319px;
+}
+
+.video-embed iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  width: auto;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.image-embed img {
+  width: 100%;
+}
+
+
+.video-caption {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  margin-right: 7px;
+  color: #666;
+  font-family: georgia,'times new roman',times,serif;
+}
+
+.video-caption:nth-child(2) {
+  font-size: 0.8125rem;
+  display: inline;
+  color: #888;
+  font-family: georgia,'times new roman',times,serif;
+  line-height: 1.125rem;
 }
 
 /* bottom grid */
