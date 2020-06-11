@@ -275,13 +275,58 @@ header figcaption .credit {
 
 .editors-picks a:hover {
   text-decoration: underline;
-
 }
 
 .editors-picks img {
   width: 100%;
   height: auto;
 }
+
+.grid-section {
+  width: 900px;
+  margin-left: -50px;
+}
+
+.inflation-theory-grid {
+  width: 100%;
+}
+
+.inflation-theory-grid img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-section p:nth-child(2) {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    margin: 6px 0 15px;
+}
+
+.inflation-theory-grid {
+  display: grid;
+  background-image: url('assets/article-grid.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 17%;
+  grid-gap: 10px;
+  grid-template: repeat(4,1fr) / repeat(4, 1fr)
+}
+
+.grid-section div p {
+  font-size: 12px;
+  padding-bottom: 50%;
+  line-height: 17px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inflation-theory-grid span {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 
 /* bottom grid */
 
