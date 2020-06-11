@@ -83,7 +83,7 @@ nav ul {
   padding-left: 10px;
 }
 
-.account-items button {
+.account-items button, .comments-n-links button {
   background: rgb(86, 123, 149);
   padding: 11px 12px 8px;
   color: white;
@@ -386,12 +386,37 @@ header figcaption .credit {
   line-height: 1.125rem;
 }
 
-/* bottom grid */
+#bottom-info, #bottom-info a {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102,102,102);
+  margin-bottom: 10px;
+}
 
-/* footer {
-  width: 80%;
-  margin: 0 auto;
-} */
+#bottom-info a {
+  text-decoration: underline;
+}
+
+.comments-n-links {
+  margin-bottom: 2rem;
+}
+
+.comments-n-links button {
+  width: 50%;
+}
+
+.comments-n-links ul {
+  display: flex;
+  float: right;
+}
+
+.comments-n-links li {
+  margin-left: 15px;
+}
+
+
+/* bottom grid */
 
 .main-grid {
   display: grid;
@@ -469,6 +494,7 @@ header figcaption .credit {
 .popular-link a:hover {
   color: rgb(153,153,153);
 }
+
 
 
 /* footer */
