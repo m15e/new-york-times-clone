@@ -101,10 +101,7 @@ nav ul {
 }
 
 header {
-  display: flex;
   max-width: 945px;
-  flex-wrap: wrap;
-  justify-content: center;
   margin: 0 auto;
   padding-top: 4rem;
 }
@@ -118,13 +115,14 @@ section {
   margin-bottom: 30px;
   font-size: 1rem;
   font-style: italic;
+  text-align: center;
 }
 
-.author, .meta-info {
+#author, .meta-info {
   width: 100%;
 }
 
-.author {
+#author {
   margin-top: 35px;
   margin-bottom: 20px;
 }
@@ -150,21 +148,22 @@ header figcaption .credit {
 }
 
 /* meta-information and links before article */
-
-.author p, .author a {
-  color: #333;
-}
-
 .meta-info {
   display: flex;
   justify-content: space-between;
 }
 
-.social-icon {
+.meta-info div:first-child {
+  align-self: center;
+}
+
+.social-links a {
+  margin-right: 7px;
+}
+
+.social-icon, .share-icon {
   display: inline-block;
-  height: 15px;
   vertical-align: middle;
-  width: 15px;
   background-color: #eee;
   border: 1px #eee solid;
   border-radius: 100%;
@@ -173,11 +172,39 @@ header figcaption .credit {
   height: 28px;
 }
 
+.share-icon {
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  width: 32px;
+  height: 32px;
+}
+
+.share-icon:hover {
+  opacity: 0.3;
+}
+
+
+
 .social-icon:hover {
   background-color: white;
 }
 
 /* main content */
+
+#author {
+  color: #333;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+#author a {
+  color: #333;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
 
 .text-start {
   padding-top: 2rem;
@@ -434,7 +461,8 @@ header figcaption .credit {
   display: grid;
   grid-template-columns: 4fr 2fr;
   grid-gap: 20px;
-  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .divider {
@@ -513,7 +541,8 @@ header figcaption .credit {
 /* footer */
 
 footer {
-  padding: 30px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .footer-logo {
@@ -547,7 +576,7 @@ footer::before {
 
 .foot-grid {
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 4fr 1fr;
   padding-bottom: 10px;
 }
 
@@ -588,13 +617,14 @@ footer::before {
 }
 
 .featured-links a {
-  display: inline-block;
+  display: block;
   font-size: 16px;
   font-family: sans-serif;
   font-weight: 700;
   line-height: 15px;
   color: #000;
-  margin-bottom: 13px;
+  padding: 3px 0;
+  margin-top: 13px;
 }
 
 .featured-links a img {
