@@ -185,6 +185,10 @@ header figcaption .credit {
   padding-top: 2rem;
 }
 
+.text-container {
+  position: relative;
+}
+
 .text-container section p {
   color: rgb(51,51,51);
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -241,6 +245,9 @@ header figcaption .credit {
 
 .editors-picks {
   width: 210px;
+  position: absolute;
+  right: 2.6%;
+  top: 210%;
 }
 
 .editors-picks h5 {
