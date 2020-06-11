@@ -179,7 +179,102 @@ header figcaption .credit {
   background-color: white;
 }
 
+/* main content */
 
+.text-start {
+  padding-top: 2rem;
+}
+
+.text-container section p {
+  color: rgb(51,51,51);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}   
+
+.space-1 {
+  padding-bottom: 1rem;
+}
+
+.space-2 {
+  padding-bottom: 2rem;
+}
+
+.article-link, .unlock-account a {
+  color: rgb(50, 104, 145); 
+}
+
+.article-link {
+  text-decoration: underline;
+}
+
+.unlock-account {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 1rem auto;
+  margin: 2rem auto;
+}
+
+.unlock-account h5 {
+  color: rgb(51,51,51);
+  padding-top: 1rem;
+}
+
+.unlock-account h5, .unlock-account a {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+.unlock-account a {
+  padding-bottom: 1rem;
+}
+
+.line-top, .line-bottom {
+  margin: 0 auto;
+  height: 1px;
+  width: 80px;
+  background-color: rgb(204,204,204);
+}
+
+.editors-picks {
+  width: 210px;
+}
+
+.editors-picks h5 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(204,204,204);
+}
+
+.editors-picks div {
+  margin-bottom: 15px;
+}
+
+.editors-picks a {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  font-size: 12px;
+  line-height: 17px;
+  color: rgb(51, 51, 51);
+}
+
+.editors-picks span {
+  margin: auto 0px auto 10px;
+}
+
+.editors-picks a:hover {
+  text-decoration: underline;
+
+}
+
+.editors-picks img {
+  width: 100%;
+  height: auto;
+}
 
 /* bottom grid */
 
@@ -304,6 +399,7 @@ footer::before {
 .foot-grid {
   display: grid;
   grid-template-columns: 80% 20%;
+  padding-bottom: 10px;
 }
 
 .footer-links {
@@ -388,5 +484,19 @@ hr {
 
 .bottom-links ul {
   display: flex;
+  justify-content: space-around;
+}
+
+.contact-links li {
+  padding: 10px 0;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-links p, .contact-links a {
+  color: #666;
+  font-size: 11px;
+  font-family: sans-serif;
 }
 
