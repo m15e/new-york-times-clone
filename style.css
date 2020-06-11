@@ -19,11 +19,15 @@ button {
 /* navigation */
 
 nav {
+  position: fixed;
+  width: 100%;
   display: flex;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
+  z-index: 100;
+  background-color: #fff;
 }
 
 nav ul {
@@ -102,19 +106,18 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
+  padding-top: 4rem;
 }
 
 section {
   margin: 0 auto;
 }
 
-header h1 {
-  font-size: 2rem;
-}
-
 .title {
   margin-top: 50px;
   margin-bottom: 30px;
+  font-size: 1rem;
+  font-style: italic;
 }
 
 .author, .meta-info {
@@ -349,6 +352,10 @@ header figcaption .credit {
   margin: 43px auto;
 }
 
+.video-container figcaption {
+  margin-top: 10px;
+}
+
 .video-embed {
   width: 600px;
   height: 319px;
@@ -363,6 +370,11 @@ header figcaption .credit {
   width: auto;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.image-container figcaption {
+  margin-top: 10px;
+  margin-bottom: 2rem;
 }
 
 .image-embed img {
@@ -468,6 +480,7 @@ header figcaption .credit {
 .item figcaption span {
   text-align: right;
   display: block;
+  min-height: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
