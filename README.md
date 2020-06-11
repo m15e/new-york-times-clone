@@ -30,11 +30,11 @@ To get a local copy up and running download the repository and open the index.ht
 
 👤 **Mohammad Umar**
 
-- Github: [@githubhandle](https://github.com/mohammadumar28)
+- Github: [@mohammadumar28](https://github.com/mohammadumar28)
 
 👤 **Mark Rode**
 
-- Github: [@githubhandle](https://github.com/m15e)
+- Github: [@m15e](https://github.com/m15e)
 
 ## 🤝 Contributing
 
