@@ -1,20 +1,19 @@
-# Project Name
+# New York Times Article Clone
 
-> One paragraph statement about the project.
+> A clone of the article page of the New York Times.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshot.png)
 
-Additional description about the project and its features.
+This project demonstrates sample usage of CSS display methods, namely grid, flex and floats.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://nostalgic-curie-b81273.netlify.app/)
 
 
 ## Getting Started
@@ -23,35 +22,19 @@ Additional description about the project and its features.
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+To get a local copy up and running download the repository and open the index.html file with a browser of your choice.
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Mohammad Umar**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@mohammadumar28](https://github.com/mohammadumar28)
 
-👤 **Author2**
+👤 **Mark Rode**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@m15e](https://github.com/m15e)
 
 ## 🤝 Contributing
 
@@ -65,9 +48,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- New York Times
+- The Odin Project
 
 ## 📝 License
 
