@@ -91,7 +91,7 @@ nav ul {
 }
 
 header {
-  max-width: 945px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-top: 4rem;
 }
@@ -283,6 +283,56 @@ header figcaption .credit {
 .editors-picks img {
   width: 100%;
   height: auto;
+}
+
+/* notice */
+
+.notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border-top: 1px solid #000;
+  width: 100%;
+  height: 55px;
+  display: flex;
+}
+
+.notice-wrapper {
+  max-width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.notice p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 100;
+  padding-bottom: 2px;
+}
+
+.notice a {
+  float: right;
+  letter-spacing: 0.7px;
+  font-family: sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.notice img {
+  transform: rotate(180deg);
+  height: auto;
+  width: 14px;
+  margin-left: 25px;
 }
 
 .contact-links p,
@@ -496,7 +546,7 @@ header figcaption .credit {
 /* footer */
 
 footer {
-  margin: 0 auto;
+  margin: 0 auto 60px;
   max-width: 1200px;
 }
 
@@ -623,6 +673,8 @@ hr {
   display: flex;
   flex-direction: column;
 }
+
+/* interactions */
 
 .popular-link a:hover {
   color: rgb(153, 153, 153);
