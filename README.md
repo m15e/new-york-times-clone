@@ -1,10 +1,10 @@
 # New York Times Article Clone
 
-> A clone of the article page of the New York Times.
+> A clone of an article page of The New York Times.
 
 ![screenshot](assets/screenshot.png)
 
-This project demonstrates sample usage of CSS display methods, namely grid, flex and floats.
+This project demonstrates usage of CSS layout methods namely, CSS Grid, Flexbox and Floats.
 
 ## Built With
 
@@ -15,16 +15,9 @@ This project demonstrates sample usage of CSS display methods, namely grid, flex
 
 [Live Demo Link](https://nostalgic-curie-b81273.netlify.app/)
 
-
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running download the repository and open the index.html file with a browser of your choice.
-
-
+To get a local copy up and running, download/clone the repository and open index.html file with a browser of your choice.
 
 ## Authors
 
@@ -39,8 +32,6 @@ To get a local copy up and running download the repository and open the index.ht
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
