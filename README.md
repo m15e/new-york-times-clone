@@ -41,7 +41,3 @@ Give a ⭐️ if you like this project!
 
 - New York Times
 - The Odin Project
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
