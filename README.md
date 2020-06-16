@@ -2,7 +2,7 @@
 
 > A clone of the article page of the New York Times.
 
-![screenshot](./screenshot.png)
+![screenshot](assets/screenshot.png)
 
 This project demonstrates sample usage of CSS display methods, namely grid, flex and floats.
 
