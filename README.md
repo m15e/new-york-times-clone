@@ -1,4 +1,4 @@
-# New York Times Article Clone
+# The New York Times Article Clone
 
 > A clone of an article page of The New York Times.
 
