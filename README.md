@@ -4,7 +4,7 @@
 
 ![screenshot](assets/screenshot.png)
 
-This project demonstrates usage of CSS layout methods namely, CSS Grid, Flexbox and Floats.
+This project demonstrates the usage of CSS layout methods namely, CSS Grid, Flexbox and Floats.
 
 ## Built With
 
